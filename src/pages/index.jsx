@@ -25,7 +25,7 @@ export default function Home() {
           </h1>
         </SlideTitle>
         <SlideText>
-          <p>+ de 7 anos de experiência no desenvolvimento Full Stack.</p>
+          <p>+ de 7 anos de experiência no desenvolvimento Full Stack</p>
         </SlideText>
         <Button label="Vamos Conversar" url="#" target="_blank" />
       </Container>
