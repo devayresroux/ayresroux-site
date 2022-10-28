@@ -13,3 +13,7 @@ export function SlidePreTitle(props) {
 export function SlideTitle(props) {
   return <div className={slideStyle.slideTitle}>{props.children}</div>;
 }
+
+export function SlideText(props) {
+  return <div className={slideStyle.slideText}>{props.children}</div>;
+}

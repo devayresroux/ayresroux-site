@@ -1,6 +1,11 @@
 .slide {
   padding: 8rem 0;
-  background-color: var(--dark-light-color);
+  background-color: var(--dark-color);
+  position: relative;
+}
+.slide *:not(video) {
+  position: relative;
+  z-index: 2;
 }
 .slidePreTitle {
   display: flex;
@@ -20,4 +25,9 @@
   background-clip: text;
   text-fill-color: transparent;
   display: block;
+}
+.slideText p {
+  font-size: 1.8rem;
+  opacity: 0.6;
+  margin-bottom: 4rem;
 }
